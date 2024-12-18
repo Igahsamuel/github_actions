@@ -32,6 +32,11 @@ jobs:
 
       #   - name: Run the tests
       #     run: npm test
+      - name: Format code
+        run: npm run format
+
+      - name: lint
+        run: npm run lint
 
       - name: Build
         run: npm run build
